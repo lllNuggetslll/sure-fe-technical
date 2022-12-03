@@ -14,6 +14,7 @@ function InstructionsBar({ onClick }: TInstructionsBar) {
     >
       <Button
         onClick={onClick}
+        data-testid="instructionBarButton"
         variant="contained"
         color="primary"
         size="large"
