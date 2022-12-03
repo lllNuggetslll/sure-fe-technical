@@ -7,7 +7,7 @@ import Layout from './components/Layout';
 import { useState } from 'react';
 import Modal from './components/Modal';
 import Instructions from './components/Instructions';
-import PolicyholdersView from './components/PolicyHoldersView';
+import PolicyholdersView from './components/PolicyholdersView';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);

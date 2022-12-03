@@ -1,1 +1,1 @@
-export { default } from './PolicyHoldersView';
+export { default } from './PolicyholdersView';
