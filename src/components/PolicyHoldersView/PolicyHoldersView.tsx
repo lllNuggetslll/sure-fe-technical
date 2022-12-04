@@ -10,12 +10,14 @@ import {
   Box,
   TableHead,
   CircularProgress,
+  Button,
 } from '@mui/material';
 
 import { buildAddress } from './utils';
 
 const PolicyholdersView = () => {
-  const { policyholderData, isLoading } = usePolicyholderData();
+  const { policyholderData, addPolicyholderData, isLoading } =
+    usePolicyholderData();
 
   return (
     <Box>
@@ -53,8 +55,10 @@ const PolicyholdersView = () => {
               )
             )}
           </TableBody>
-        </MuiTable>{' '}
+        </MuiTable>
       </TableContainer>
+
+      <Button onClick={addPolicyholderData}>Add a policyholder</Button>
     </Box>
   );
 };
