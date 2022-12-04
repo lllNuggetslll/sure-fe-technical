@@ -29,7 +29,6 @@ function Layout({ children, onFooterClick }: TLayout) {
         <Box
           sx={{
             margin: '0 auto',
-            maxWidth: '750px',
             padding: '48px 16px',
           }}
         >
