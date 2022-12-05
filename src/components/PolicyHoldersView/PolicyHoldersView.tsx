@@ -1,6 +1,6 @@
 import usePolicyholderData from './usePolicyholderData';
 import { Box, Button } from '@mui/material';
-
+import ToDos from './ToDos';
 import InfoTable from './InfoTable';
 
 const PolicyholdersView = () => {
@@ -31,6 +31,8 @@ const PolicyholdersView = () => {
       )}
 
       <Button onClick={addPolicyholderData}>Add a policyholder</Button>
+
+      <ToDos />
     </Box>
   );
 };
